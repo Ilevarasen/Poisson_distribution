@@ -37,6 +37,7 @@ REG NO:24900688
 
 NAME:ILEVARASEN.S
 REG NO: 24900688
+```py
 
 import numpy as np
 import math
@@ -60,7 +61,7 @@ p=list();E=list();xi=list()
 print("X P(X=x) Obs.Fr Exp.Fr xi")
 print("--------------------------")
 for x in range(M+1):
-    p.append(math.exp(-mean)mean*x/math.factorial(x))
+    p.append(math.exp(-mean)*mean**x/math.factorial(x))
     E.append(p[x]*sf)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.3f %4.2f %3.2f %3.2f"%(x,p[x],f[x],E[x],xi[x]))
@@ -73,6 +74,7 @@ if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson Distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
+```
 
 ### Output : 
 ![image](https://github.com/user-attachments/assets/f9aa84b5-1ef5-45aa-bba3-854f784c9e4b)
