@@ -23,9 +23,6 @@ The Poisson distribution is the discrete probability distribution of the number 
 4. The probability of an event occurring is proportional to the length of the time period. 
  
 ### Procedure :
-NAME:ILEVARASEN.S
-
-REG NO:24900688
 
 ![image](https://user-images.githubusercontent.com/104613195/166251988-d0c53205-6080-4f7b-ae4c-398178586637.png)
 
@@ -36,6 +33,7 @@ REG NO:24900688
 ### Program :
 
 NAME:ILEVARASEN.S
+
 REG NO: 24900688
 ```py
 
